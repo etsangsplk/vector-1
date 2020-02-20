@@ -350,9 +350,9 @@ module.exports = {
         "deletions_count": 96,
         "description": "Allow building on Windows Stable Rust",
         "files_count": 9,
-        "group": "feat",
+        "group": "chore",
         "insertions_count": 180,
-        "message": "feat(operations): Allow building on Windows Stable Rust (#1560)",
+        "message": "chore(operations): Allow building on Windows Stable Rust (#1560)",
         "pr_number": 1560,
         "scope": {
           "category": "core",
@@ -361,7 +361,7 @@ module.exports = {
           "name": "operations"
         },
         "sha": "e3afda368582dd51f3518eaf2af3d5d82873b52a",
-        "type": "feat"
+        "type": "chore"
       },
       {
         "author": "Lucio Franco",
@@ -1288,11 +1288,11 @@ module.exports = {
         "breaking_change": false,
         "date": "2020-01-29 19:52:01 +0000",
         "deletions_count": 25,
-        "description": "Add option to drop unspecified fields",
+        "description": "Add new `drop_unspecified` option to drop unspecified fields",
         "files_count": 5,
         "group": "feat",
         "insertions_count": 165,
-        "message": "feat(coercer transform): Add option to drop unspecified fields (#1636)",
+        "message": "feat(coercer transform): Add new `drop_unspecified` option to drop unspecified fields (#1636)",
         "pr_number": 1636,
         "scope": {
           "category": "transform",
@@ -2088,11 +2088,11 @@ module.exports = {
         "breaking_change": false,
         "date": "2020-02-04 12:11:08 +0000",
         "deletions_count": 7,
-        "description": "Add several S3 object options",
+        "description": "Add several S3 object-level options (`grant_full_control`, `server_side_encryption`, and more)",
         "files_count": 6,
         "group": "feat",
         "insertions_count": 638,
-        "message": "feat(aws_s3 sink): Add several S3 object options (#1689)",
+        "message": "feat(aws_s3 sink): Add several S3 object-level options (`grant_full_control`, `server_side_encryption`, and more) (#1689)",
         "pr_number": 1689,
         "scope": {
           "category": "sink",
@@ -2450,9 +2450,9 @@ module.exports = {
         "deletions_count": 4,
         "description": "Clarify topology warnings",
         "files_count": 3,
-        "group": "feat",
+        "group": "enhancement",
         "insertions_count": 4,
-        "message": "feat(config): Clarify topology warnings (#1726)",
+        "message": "enhancement(config): Clarify topology warnings (#1726)",
         "pr_number": 1726,
         "scope": {
           "category": "core",
@@ -2461,7 +2461,7 @@ module.exports = {
           "name": "config"
         },
         "sha": "8fb49eec4a8096635e83a88f909b1892359b020f",
-        "type": "feat"
+        "type": "enhancement"
       },
       {
         "author": "Alexander Rodin",
@@ -2630,9 +2630,9 @@ module.exports = {
         "deletions_count": 77,
         "description": "Improve cyclic deps error message",
         "files_count": 4,
-        "group": "feat",
+        "group": "enhancement",
         "insertions_count": 98,
-        "message": "feat(cli): Improve cyclic deps error message (#1728)",
+        "message": "enhancement(cli): Improve cyclic deps error message (#1728)",
         "pr_number": 1728,
         "scope": {
           "category": "core",
@@ -2641,7 +2641,7 @@ module.exports = {
           "name": "cli"
         },
         "sha": "6f290d3e55d78438100b1bd31747c6c4b1630184",
-        "type": "feat"
+        "type": "enhancement"
       },
       {
         "author": "Bruce Guenter",
@@ -2850,9 +2850,9 @@ module.exports = {
         "deletions_count": 1,
         "description": "Option to reload config on file change",
         "files_count": 7,
-        "group": "enhancement",
+        "group": "feat",
         "insertions_count": 260,
-        "message": "enhancement(config): Option to reload config on file change (#1330)",
+        "message": "feat(config): Option to reload config on file change (#1330)",
         "pr_number": 1330,
         "scope": {
           "category": "core",
@@ -2861,7 +2861,7 @@ module.exports = {
           "name": "config"
         },
         "sha": "0075ea61060bb57701c821eb835071f303d31d51",
-        "type": "enhancement"
+        "type": "feat"
       },
       {
         "author": "Alexander Rodin",
@@ -2970,9 +2970,9 @@ module.exports = {
         "deletions_count": 23,
         "description": "Improve `vector generate` syntax and formatting",
         "files_count": 1,
-        "group": "feat",
+        "group": "enhancement",
         "insertions_count": 195,
-        "message": "feat(cli): Improve `vector generate` syntax and formatting (#1773)",
+        "message": "enhancement(cli): Improve `vector generate` syntax and formatting (#1773)",
         "pr_number": 1773,
         "scope": {
           "category": "core",
@@ -2981,7 +2981,7 @@ module.exports = {
           "name": "cli"
         },
         "sha": "2535012cb81d0fa5a4ea0ede00a2f21e1a71d192",
-        "type": "feat"
+        "type": "enhancement"
       },
       {
         "author": "Ashley Jeffs",
@@ -2990,9 +2990,9 @@ module.exports = {
         "deletions_count": 183,
         "description": "Test sub command improvements",
         "files_count": 11,
-        "group": "feat",
+        "group": "enhancement",
         "insertions_count": 329,
-        "message": "feat(cli): Test sub command improvements (#1739)",
+        "message": "enhancement(cli): Test sub command improvements (#1739)",
         "pr_number": 1739,
         "scope": {
           "category": "core",
@@ -3001,7 +3001,7 @@ module.exports = {
           "name": "cli"
         },
         "sha": "8570e00229424e48227be654798ffb06ee6dc184",
-        "type": "feat"
+        "type": "enhancement"
       },
       {
         "author": "binarylogic",
@@ -3068,11 +3068,11 @@ module.exports = {
         "breaking_change": false,
         "date": "2020-02-13 18:51:08 +0000",
         "deletions_count": 223,
-        "description": "Global Default Log Schemas",
+        "description": "Global default log schemas",
         "files_count": 49,
         "group": "feat",
         "insertions_count": 715,
-        "message": "feat(config): Global Default Log Schemas (#1769)",
+        "message": "feat(config): Global default log schemas (#1769)",
         "pr_number": 1769,
         "scope": {
           "category": "core",
@@ -3468,11 +3468,11 @@ module.exports = {
         "breaking_change": false,
         "date": "2020-02-17 14:54:27 +0000",
         "deletions_count": 9,
-        "description": "Support templating",
+        "description": "Support templating for dynamic values",
         "files_count": 5,
         "group": "enhancement",
         "insertions_count": 147,
-        "message": "enhancement(add_fields transform): Support templating (#1799)",
+        "message": "enhancement(add_fields transform): Support templating for dynamic values (#1799)",
         "pr_number": 1799,
         "scope": {
           "category": "transform",
@@ -3508,11 +3508,11 @@ module.exports = {
         "breaking_change": false,
         "date": "2020-02-18 03:32:37 +0000",
         "deletions_count": 314,
-        "description": "Add more `include_*` filters",
+        "description": "Add more `include_container_names`, `include_pod_uids`, and `include_namespaces` filters",
         "files_count": 7,
         "group": "feat",
         "insertions_count": 1091,
-        "message": "feat(kubernetes source): Add more `include_*` filters (#1501)",
+        "message": "feat(kubernetes source): Add more `include_container_names`, `include_pod_uids`, and `include_namespaces` filters (#1501)",
         "pr_number": 1501,
         "scope": {
           "category": "source",
@@ -20358,9 +20358,9 @@ module.exports = {
           "deletions_count": 96,
           "description": "Allow building on Windows Stable Rust",
           "files_count": 9,
-          "group": "feat",
+          "group": "chore",
           "insertions_count": 180,
-          "message": "feat(operations): Allow building on Windows Stable Rust (#1560)",
+          "message": "chore(operations): Allow building on Windows Stable Rust (#1560)",
           "pr_number": 1560,
           "scope": {
             "category": "core",
@@ -20369,7 +20369,7 @@ module.exports = {
             "name": "operations"
           },
           "sha": "e3afda368582dd51f3518eaf2af3d5d82873b52a",
-          "type": "feat"
+          "type": "chore"
         },
         {
           "author": "Lucio Franco",
@@ -21296,11 +21296,11 @@ module.exports = {
           "breaking_change": false,
           "date": "2020-01-29 19:52:01 +0000",
           "deletions_count": 25,
-          "description": "Add option to drop unspecified fields",
+          "description": "Add new `drop_unspecified` option to drop unspecified fields",
           "files_count": 5,
           "group": "feat",
           "insertions_count": 165,
-          "message": "feat(coercer transform): Add option to drop unspecified fields (#1636)",
+          "message": "feat(coercer transform): Add new `drop_unspecified` option to drop unspecified fields (#1636)",
           "pr_number": 1636,
           "scope": {
             "category": "transform",
@@ -22096,11 +22096,11 @@ module.exports = {
           "breaking_change": false,
           "date": "2020-02-04 12:11:08 +0000",
           "deletions_count": 7,
-          "description": "Add several S3 object options",
+          "description": "Add several S3 object-level options (`grant_full_control`, `server_side_encryption`, and more)",
           "files_count": 6,
           "group": "feat",
           "insertions_count": 638,
-          "message": "feat(aws_s3 sink): Add several S3 object options (#1689)",
+          "message": "feat(aws_s3 sink): Add several S3 object-level options (`grant_full_control`, `server_side_encryption`, and more) (#1689)",
           "pr_number": 1689,
           "scope": {
             "category": "sink",
@@ -22458,9 +22458,9 @@ module.exports = {
           "deletions_count": 4,
           "description": "Clarify topology warnings",
           "files_count": 3,
-          "group": "feat",
+          "group": "enhancement",
           "insertions_count": 4,
-          "message": "feat(config): Clarify topology warnings (#1726)",
+          "message": "enhancement(config): Clarify topology warnings (#1726)",
           "pr_number": 1726,
           "scope": {
             "category": "core",
@@ -22469,7 +22469,7 @@ module.exports = {
             "name": "config"
           },
           "sha": "8fb49eec4a8096635e83a88f909b1892359b020f",
-          "type": "feat"
+          "type": "enhancement"
         },
         {
           "author": "Alexander Rodin",
@@ -22638,9 +22638,9 @@ module.exports = {
           "deletions_count": 77,
           "description": "Improve cyclic deps error message",
           "files_count": 4,
-          "group": "feat",
+          "group": "enhancement",
           "insertions_count": 98,
-          "message": "feat(cli): Improve cyclic deps error message (#1728)",
+          "message": "enhancement(cli): Improve cyclic deps error message (#1728)",
           "pr_number": 1728,
           "scope": {
             "category": "core",
@@ -22649,7 +22649,7 @@ module.exports = {
             "name": "cli"
           },
           "sha": "6f290d3e55d78438100b1bd31747c6c4b1630184",
-          "type": "feat"
+          "type": "enhancement"
         },
         {
           "author": "Bruce Guenter",
@@ -22858,9 +22858,9 @@ module.exports = {
           "deletions_count": 1,
           "description": "Option to reload config on file change",
           "files_count": 7,
-          "group": "enhancement",
+          "group": "feat",
           "insertions_count": 260,
-          "message": "enhancement(config): Option to reload config on file change (#1330)",
+          "message": "feat(config): Option to reload config on file change (#1330)",
           "pr_number": 1330,
           "scope": {
             "category": "core",
@@ -22869,7 +22869,7 @@ module.exports = {
             "name": "config"
           },
           "sha": "0075ea61060bb57701c821eb835071f303d31d51",
-          "type": "enhancement"
+          "type": "feat"
         },
         {
           "author": "Alexander Rodin",
@@ -22978,9 +22978,9 @@ module.exports = {
           "deletions_count": 23,
           "description": "Improve `vector generate` syntax and formatting",
           "files_count": 1,
-          "group": "feat",
+          "group": "enhancement",
           "insertions_count": 195,
-          "message": "feat(cli): Improve `vector generate` syntax and formatting (#1773)",
+          "message": "enhancement(cli): Improve `vector generate` syntax and formatting (#1773)",
           "pr_number": 1773,
           "scope": {
             "category": "core",
@@ -22989,7 +22989,7 @@ module.exports = {
             "name": "cli"
           },
           "sha": "2535012cb81d0fa5a4ea0ede00a2f21e1a71d192",
-          "type": "feat"
+          "type": "enhancement"
         },
         {
           "author": "Ashley Jeffs",
@@ -22998,9 +22998,9 @@ module.exports = {
           "deletions_count": 183,
           "description": "Test sub command improvements",
           "files_count": 11,
-          "group": "feat",
+          "group": "enhancement",
           "insertions_count": 329,
-          "message": "feat(cli): Test sub command improvements (#1739)",
+          "message": "enhancement(cli): Test sub command improvements (#1739)",
           "pr_number": 1739,
           "scope": {
             "category": "core",
@@ -23009,7 +23009,7 @@ module.exports = {
             "name": "cli"
           },
           "sha": "8570e00229424e48227be654798ffb06ee6dc184",
-          "type": "feat"
+          "type": "enhancement"
         },
         {
           "author": "binarylogic",
@@ -23076,11 +23076,11 @@ module.exports = {
           "breaking_change": false,
           "date": "2020-02-13 18:51:08 +0000",
           "deletions_count": 223,
-          "description": "Global Default Log Schemas",
+          "description": "Global default log schemas",
           "files_count": 49,
           "group": "feat",
           "insertions_count": 715,
-          "message": "feat(config): Global Default Log Schemas (#1769)",
+          "message": "feat(config): Global default log schemas (#1769)",
           "pr_number": 1769,
           "scope": {
             "category": "core",
@@ -23476,11 +23476,11 @@ module.exports = {
           "breaking_change": false,
           "date": "2020-02-17 14:54:27 +0000",
           "deletions_count": 9,
-          "description": "Support templating",
+          "description": "Support templating for dynamic values",
           "files_count": 5,
           "group": "enhancement",
           "insertions_count": 147,
-          "message": "enhancement(add_fields transform): Support templating (#1799)",
+          "message": "enhancement(add_fields transform): Support templating for dynamic values (#1799)",
           "pr_number": 1799,
           "scope": {
             "category": "transform",
@@ -23516,11 +23516,11 @@ module.exports = {
           "breaking_change": false,
           "date": "2020-02-18 03:32:37 +0000",
           "deletions_count": 314,
-          "description": "Add more `include_*` filters",
+          "description": "Add more `include_container_names`, `include_pod_uids`, and `include_namespaces` filters",
           "files_count": 7,
           "group": "feat",
           "insertions_count": 1091,
-          "message": "feat(kubernetes source): Add more `include_*` filters (#1501)",
+          "message": "feat(kubernetes source): Add more `include_container_names`, `include_pod_uids`, and `include_namespaces` filters (#1501)",
           "pr_number": 1501,
           "scope": {
             "category": "source",
